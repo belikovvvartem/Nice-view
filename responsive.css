@@ -1,0 +1,233 @@
+@media (max-width: 834px) {
+    body, header, footer, .hero, .benefits, .benefits-text, .apartment, .apartment-choose, .multi-section, .infrastructure, .infrastructure-map, .gallery {
+        max-width: 834px;
+        overflow-x: hidden;
+    }
+
+    header {
+        display: flex;
+        padding: 22px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    header .logo {
+        margin-left: 100px;
+    }
+
+    nav {
+        margin-left: -90px;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .benefits-icon {
+        width: 350px;
+        margin-left: 50px;
+    }
+
+    .benefit {
+        width: 152px !important;
+        height: 104px;
+    }
+    
+    .benefit:nth-child(2) {
+        margin-left: 32px;
+    }
+    
+    .benefit:nth-child(4) {
+        margin-left: 32px;
+    }
+
+    .philosophy-text {
+        margin-left: -100px;
+    }
+
+    .philosophy-p {
+        width: 336px;
+    }
+
+    .apartment-choose {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 900px;
+        gap: 0px;
+        margin-left: -50px;
+    }
+
+    .apartment {
+        height: 1200px;
+    }
+
+    .multi-section {
+        padding: 32px 100px;
+    }
+
+    .infrastructure-title, .gallery-title {
+        margin-left: 32px;
+    }
+
+    .gallery-sviper {
+        width: 100% !important;
+        height: 590px;
+    }
+    
+    .swiper {
+        max-width: 834px !important;
+    }
+    
+    .swiper-wrapper {
+        width: 100% !important;
+        height: 590px !important;
+    }
+
+    .footer-bottom {
+        left: 23%;
+    }
+}
+
+@media (max-width: 440px) {
+    /* Стилі для телефонів */
+    body, header, footer, .hero, .benefits, .benefits-text, .apartment, .apartment-choose, .multi-section, .infrastructure, .infrastructure-map, .gallery {
+        max-width: 440px;
+        overflow-x: hidden;
+    }
+
+    header {
+        display: flex;
+        padding: 22px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    header .logo {
+        margin-left: 100px;
+    }
+
+    .hero-description {
+        text-align: center;
+    }
+
+    nav {
+        margin-left: -90px;
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .benefits-icon {
+        width: 350px;
+        margin-left: 50px;
+    }
+
+    .benefit {
+        width: 152px !important;
+        height: 104px;
+    }
+    
+    .benefit:nth-child(2) {
+        margin-left: 32px;
+    }
+    
+    .benefit:nth-child(4) {
+        margin-left: 32px;
+    }
+
+    .philosophy-text {
+        margin-left: -100px;
+    }
+
+    .philosophy-p {
+        width: 336px;
+    }
+
+    .apartment-choose {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 1200px;
+        gap: 0px;
+        margin-left: -50px;
+    }
+
+    .apartment {
+        height: 1600px;
+    }
+
+    .downloadCatalog {
+        margin-left: -60px;
+    }
+
+    .multi-section {
+        padding: 32px 100px;
+    }
+
+    .infrastructure-title, .gallery-title {
+        margin-left: 32px;
+    }
+
+    .advantages {
+        left: 11%;
+    }
+
+    .gallery-sviper {
+        width: 100% !important;
+        height: 590px;
+    }
+    
+    .swiper {
+        max-width: 340px !important;
+    }
+    
+    .swiper-wrapper {
+        width: 100% !important;
+        height: 590px !important;
+    }
+
+    .getInTouch {
+        margin-bottom: 100px;
+    }
+
+    .getInTouch-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 10px;
+        height: 332px;
+        overflow-y: hidden;
+    }
+
+    footer .logo {
+        display: none;
+    }
+
+
+    .contacts-footer {
+        width: 135px;
+        margin-left: 20px;
+    }
+
+    footer .social {
+        flex-direction: row;
+        margin-left: 40px;
+    }
+
+
+
+    .footer-bottom {
+        left: 23%;
+        width: 279px;
+    }
+
+}
