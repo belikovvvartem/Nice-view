@@ -7,6 +7,7 @@
 
 
 :root {
+    scroll-behavior: smooth;
     background: var(--header, linear-gradient(269deg, #2D2A22 20.66%, #7E6D53 85.22%));
 }
 
